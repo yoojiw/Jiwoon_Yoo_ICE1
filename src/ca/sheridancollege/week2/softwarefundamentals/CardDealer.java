@@ -19,7 +19,13 @@ public class CardDealer
         Card one = new Card("spade", 3);
         one.setSuit("spade");
         System.out.println(one.getSuit());
-        System.out.println(one.getValue());        
+        System.out.println(one.getValue());  
+        
+        //Now create one more object of Card
+        Card two = new Card("hearts", 4);
+        two.setSuit("spade");
+        System.out.println(two.getSuit());
+        System.out.println(two.getValue());  
    
         
     }
